@@ -157,13 +157,47 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="www\config.xml" />
     <Content Include="www\cordova.js" />
     <Content Include="www\css\index.css" />
     <Content Include="www\img\logo.png" />
     <Content Include="www\index.html">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="www\js\app.min.js">
+      <DependentUpon>app.ts</DependentUpon>
+    </Content>
+    <TypeScriptCompile Include="www\js\controllers\MainCtrl.ts" />
+    <Content Include="www\js\controllers\MainCtrl.js">
+      <DependentUpon>MainCtrl.ts</DependentUpon>
+    </Content>
+    <Content Include="www\js\controllers\MainCtrl.min.js">
+      <DependentUpon>MainCtrl.ts</DependentUpon>
+    </Content>
+    <Content Include="www\js\_ref.js">
+      <DependentUpon>_ref.ts</DependentUpon>
+    </Content>
+    <Content Include="www\js\_ref.min.js">
+      <DependentUpon>_ref.ts</DependentUpon>
+    </Content>
+    <Content Include="www\views\main.html" />
+    <TypeScriptCompile Include="www\js\_ref.ts" />
+    <TypeScriptCompile Include="www\js\app.ts" />
+    <Content Include="www\js\app.js">
+      <DependentUpon>app.ts</DependentUpon>
+    </Content>
     <Content Include="www\js\index.js" />
+    <Content Include="www\js\vendor\angular.js" />
+    <Content Include="www\js\vendor\bootstrap.min.js" />
+    <Content Include="www\js\vendor\jquery-2.0.2.min.js" />
+    <Content Include="www\js\vendor\typings\angularjs\angular-cookies.d.ts" />
+    <Content Include="www\js\vendor\typings\angularjs\angular-mocks.d.ts" />
+    <Content Include="www\js\vendor\typings\angularjs\angular-resource.d.ts" />
+    <Content Include="www\js\vendor\typings\angularjs\angular-sanitize.d.ts" />
+    <Content Include="www\js\vendor\typings\angularjs\angular-scenario.d.ts" />
+    <Content Include="www\js\vendor\typings\angularjs\angular.d.ts" />
+    <Content Include="www\js\vendor\typings\bootstrap\bootstrap.d.ts" />
+    <Content Include="www\js\vendor\typings\jquery\jquery.d.ts" />
     <None Include="cordova\lib\build.js" />
     <None Include="cordova\lib\clean.js" />
     <None Include="cordova\lib\deploy.js" />
@@ -260,6 +294,7 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

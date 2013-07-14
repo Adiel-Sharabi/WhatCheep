@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CordovaWP8_2_9_01", "CordovaWP8_2_9_01\CordovaWP8_2_9_01.csproj", "{3677C1B7-D68B-4CF9-BF8A-E869D437A6DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsCheep", "WhatsCheep\WhatsCheep.csproj", "{3677C1B7-D68B-4CF9-BF8A-E869D437A6DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "draftg", "draftg\draftg.csproj", "{9E851262-2D81-47D8-AE59-4CC3CDDA2769}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,14 @@ Global
 		{3677C1B7-D68B-4CF9-BF8A-E869D437A6DF}.Release|x86.ActiveCfg = Release|x86
 		{3677C1B7-D68B-4CF9-BF8A-E869D437A6DF}.Release|x86.Build.0 = Release|x86
 		{3677C1B7-D68B-4CF9-BF8A-E869D437A6DF}.Release|x86.Deploy.0 = Release|x86
+		{9E851262-2D81-47D8-AE59-4CC3CDDA2769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E851262-2D81-47D8-AE59-4CC3CDDA2769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E851262-2D81-47D8-AE59-4CC3CDDA2769}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{9E851262-2D81-47D8-AE59-4CC3CDDA2769}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9E851262-2D81-47D8-AE59-4CC3CDDA2769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E851262-2D81-47D8-AE59-4CC3CDDA2769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E851262-2D81-47D8-AE59-4CC3CDDA2769}.Release|ARM.ActiveCfg = Release|Any CPU
+		{9E851262-2D81-47D8-AE59-4CC3CDDA2769}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -27,16 +27,25 @@
     </head>
     <body>
         <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
+            <!-- <h1>Apache Cordova</h1>
+                <div id="deviceready" class="blink">
+                    <p class="event listening">Connecting to Device</p>
+                    <p class="event received">Device is Ready</p>
+                </div>-->
+            <div ng-view></div>
+            
         </div>
+       <div id="deviceready" class="blink">
+                    <p class="event listening">Connecting to Device</p>
+                    <p class="event received">Device is Ready</p>
+                </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/vendor/angular.js"></script>
+        <script type="text/javascript" src="js/controllers/MainCtrl.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
         <script type="text/javascript">
-            app.initialize();
+            appCor.initialize();
         </script>
     </body>
 </html>
