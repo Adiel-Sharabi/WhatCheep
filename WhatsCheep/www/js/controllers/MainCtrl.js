@@ -9,6 +9,10 @@ var WhatsCheep;
         MainCtrl.prototype.injection = function () {
             return ['$scope', MainCtrl];
         };
+
+        MainCtrl.prototype.calc = function () {
+            this.$scope.message = "Test";
+        };
         return MainCtrl;
     })();
     WhatsCheep.MainCtrl = MainCtrl;

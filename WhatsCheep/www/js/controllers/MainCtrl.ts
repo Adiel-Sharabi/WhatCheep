@@ -9,5 +9,10 @@ module WhatsCheep{
             $scope.Text = "Test Text";
             console.log("Inside ctor");
         }
+        
+        public calc():void
+        {
+            this.$scope.message = "Test";
+        }
     }
 }

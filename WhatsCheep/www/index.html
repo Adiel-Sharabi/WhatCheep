@@ -23,10 +23,12 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css"/>
         <title>Hello World</title>
     </head>
     <body>
-        <div class="app">
+        <div class="app container-fluid">
             <!-- <h1>Apache Cordova</h1>
                 <div id="deviceready" class="blink">
                     <p class="event listening">Connecting to Device</p>
@@ -35,10 +37,12 @@
             <div ng-view>Before</div>
             
         </div>
-       <div id="deviceready" class="blink">
-                    <p class="event listening">Connecting to Device</p>
-                    <p class="event received">Device is Ready</p>
-                </div>
+        <div id="deviceready" class="blink">
+            <p class="event listening">Connecting to Device</p>
+            <p class="event received">Device is Ready</p>
+        </div>
+        <script type="text/javascript" src="js/vendor/jquery-2.0.2.min.js"></script>
+        <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/vendor/angular.js"></script>
@@ -47,5 +51,6 @@
         <script type="text/javascript">
             appCor.initialize();
         </script>
+       <!--<script src="http://debug.phonegap.com/target/target-script-min.js#ttt"></script>-->
     </body>
 </html>

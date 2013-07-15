@@ -1,4 +1,19 @@
-<div class="container-fluid">
-    {{4+4}},
-<p> {{Text}}</p>
+<div class="container" >
+    
+    <div class="row-fluid">
+        <div class="span4">
+            <label class="control-label" for="inputEmail">Product</label>
+            <input type="text" id="inputEmail" placeholder="Price">
+            <input type="number"  placeholder="Amount">
+        </div>
+        <div class="span4">
+            <label class="control-label" for="inputEmail">Another Product</label>
+            <input type="text"  placeholder="Price">
+            <input type="number"  placeholder="Amount">
+        </div>
+    </div>
+    <div>
+        {{message}}
+    </div>
+    <button ng-click="calc">Calculate</button>
 </div>
