@@ -3,17 +3,17 @@
     <div class="row-fluid">
         <div class="span4">
             <label class="control-label" for="inputEmail">Product</label>
-            <input type="text" id="inputEmail" placeholder="Price">
-            <input type="number"  placeholder="Amount">
+            <input type="text" id="inputEmail" ng-model="price1" placeholder="Price">
+            <input type="number" ng-model="amount1"  placeholder="Amount">
         </div>
         <div class="span4">
             <label class="control-label" for="inputEmail">Another Product</label>
-            <input type="text"  placeholder="Price">
-            <input type="number"  placeholder="Amount">
+            <input type="text" ng-model="price2"  placeholder="Price">
+            <input type="number" ng-model="amount2"  placeholder="Amount">
         </div>
     </div>
     <div>
         {{message}}
     </div>
-    <button ng-click="calc">Calculate</button>
+    <button ng-click="calc()">Calculate</button>
 </div>
