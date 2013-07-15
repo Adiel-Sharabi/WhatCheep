@@ -11,7 +11,7 @@
                     </div>
                     <div class="input-prepend">
                         <span class="add-on"><i class="icon-asterisk"></i></span>
-                        <input class="input-small" type="number" step="any" ng-model="price1" placeholder="Price"><br/>
+                        <input class="input-small" type="number" step="any" ng-model="price1" placeholder="Price">
                     </div>
                 </div>
             </div>  
@@ -20,8 +20,14 @@
             <div ng-class="{'cheeper':!cheeper1 && result, 'expensive':cheeper1 }">
                 <div class="text-center">
                     <label > Product 2</label>
-                    <input  class="input-small" type="number"  required ng-model="amount2"  placeholder="Units">
-                    <input class="input-small" type="number" step="any" required ng-model="price2"  placeholder="Price"><br/>
+                    <div class="input-prepend">
+                        <span class="add-on"><i class="icon-barcode" ></i></span>
+                        <input  class="input-small" type="number"  required ng-model="amount2"  placeholder="Units">
+                    </div>
+ <div class="input-prepend">
+                        <span class="add-on"><i class="icon-asterisk"></i></span>
+     <input class="input-small" type="number" step="any" required ng-model="price2"  placeholder="Price">
+</div>
                 </div>
 </div>
         </div>
@@ -34,5 +40,7 @@
             </li>
         </ul>
     </div>
-    <button class="text-center" ng-click="calc()">Calculate</button>
+<div class="pagination-centered">
+    <button class="btn-primary btn-large"  ng-click="calc()">Calculate</button>
+</div>
 </div>

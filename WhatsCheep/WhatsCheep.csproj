@@ -162,6 +162,7 @@
     <Content Include="www\css\bootstrap-responsive.css" />
     <Content Include="www\css\bootstrap.css" />
     <Content Include="www\css\index.css" />
+    <Content Include="www\img\give_smile.jpg" />
     <Content Include="www\img\glyphicons-halflings-white.png" />
     <Content Include="www\img\glyphicons-halflings.png" />
     <Content Include="www\img\logo.png" />
