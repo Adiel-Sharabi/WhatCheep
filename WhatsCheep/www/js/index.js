@@ -33,7 +33,7 @@ var appCor = {
     // The scope of `this` is the event. In order to call the `receivedEvent`
     // function, we must explicity call `app.receivedEvent(...);`
     onDeviceReady: function() {
-        appCor.receivedEvent('deviceready');
+     //   appCor.receivedEvent('deviceready');
         angular.bootstrap(document,['ngapp']);
     },
     // Update DOM on a Received Event
@@ -48,3 +48,4 @@ var appCor = {
         console.log('Received Event: ' + id);
     }
 };
+$(document).ready(function () { angular.bootstrap(document, ['ngapp']); });
