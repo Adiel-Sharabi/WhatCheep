@@ -20,7 +20,7 @@
 #
 -->
 <widget>
-
+  <name>מה יותר יקר?</name>
   <features>
     <feature name="Device">
       <param name="wp-package" value="Device" onload="false"/>
