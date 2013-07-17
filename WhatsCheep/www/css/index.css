@@ -35,12 +35,12 @@
 }
 .product {
     background-color: #ddd;
-  
-    
     border-radius: 5px;
     font-size: 2em;
 }
 body {
+    background-image: url(../img/backgroung.jpg);
+
     /*background-color:#E4E4E4;
     background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
@@ -64,7 +64,6 @@ body {
 
 /* Portrait layout (default) */
 .app {
-    background-image: url(../img/backgroung.jpg);
    
 }
 

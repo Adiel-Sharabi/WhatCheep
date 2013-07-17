@@ -165,6 +165,7 @@
     <Content Include="www\img\give_smile.jpg" />
     <Content Include="www\img\glyphicons-halflings-white.png" />
     <Content Include="www\img\glyphicons-halflings.png" />
+    <Content Include="www\img\backgroung.jpg" />
     <Content Include="www\img\logo.png" />
     <Content Include="www\index.html">
       <SubType>Designer</SubType>
