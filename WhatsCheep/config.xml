@@ -20,12 +20,12 @@
 #
 -->
 <widget>
-
+  <name>מה יותר יקר?</name>
   <features>
     <feature name="Device">
       <param name="wp-package" value="Device" onload="false"/>
     </feature>
-    <feature name="Logger">
+    <!--<feature name="Logger">
       <param name="wp-package" value="Logger"/>
     </feature>
     <feature name="Compass">
@@ -78,7 +78,7 @@
     </feature>
     <feature name="InAppBrowser">
       <param name="wp-package" value="InAppBrowser"/>
-    </feature>
+    </feature>-->
   </features>
 
 
