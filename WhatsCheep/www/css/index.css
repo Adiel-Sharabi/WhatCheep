@@ -35,7 +35,10 @@
 }
 .product {
     background-color: #ddd;
+  
+    
     border-radius: 5px;
+    font-size: 2em;
 }
 body {
     /*background-color:#E4E4E4;
@@ -61,7 +64,7 @@ body {
 
 /* Portrait layout (default) */
 .app {
-    
+    background-image: url(../img/backgroung.jpg);
    
 }
 
