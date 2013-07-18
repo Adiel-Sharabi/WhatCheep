@@ -37,6 +37,9 @@
     background-color: #ddd;
     border-radius: 5px;
     font-size: 2em;
+    /*float: left !important;
+    width: auto !important;*/
+    
 }
 body {
     background-image: url(../img/backgroung.jpg);

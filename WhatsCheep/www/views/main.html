@@ -5,13 +5,13 @@
             <div ng-class="{'cheeper':cheeper1, 'expensive':!cheeper1 && result}">
                 <div class="text-center">
                     <h3>Product 1</h3>
-                    <div class="input-prepend">
+                    <div class="input-prepend input-block-level">
                         <span class="add-on"><i class="icon-barcode"></i></span>
-                        <input class="input-medium input-block-level" type="number" required ng-model="amount1" placeholder="Units">
+                        <input class="input-medium " type="number" required ng-model="amount1" placeholder="Units">
                     </div>
-                    <div class="input-prepend">
+                    <div class="input-prepend input-block-level">
                         <span class="add-on"><i class="icon-asterisk"></i></span>
-                        <input class="input-medium input-block-level" type="number" step="any" ng-model="price1" placeholder="Price">
+                        <input class="input-medium " type="number" step="any" ng-model="price1" placeholder="Price">
                     </div>
                 </div>
             </div>
@@ -20,13 +20,13 @@
             <div ng-class="{'cheeper':!cheeper1 && result, 'expensive':cheeper1 }">
                 <div class="text-center">
                     <h3>Product 2</h3>
-                    <div class="input-prepend">
+                    <div class="input-prepend input-block-level">
                         <span class="add-on"><i class="icon-barcode"></i></span>
-                        <input class="input-medium input-block-level" type="number" required ng-model="amount2" placeholder="Units">
+                        <input class="input-medium " type="number" required ng-model="amount2" placeholder="Units">
                     </div>
-                    <div class="input-prepend">
+                    <div class="input-prepend input-block-level">
                         <span class="add-on"><i class="icon-asterisk"></i></span>
-                        <input class="input-medium input-block-level" type="number" step="any" required ng-model="price2" placeholder="Price">
+                        <input class="input-medium " type="number" step="any" required ng-model="price2" placeholder="Price">
                     </div>
                 </div>
             </div>
